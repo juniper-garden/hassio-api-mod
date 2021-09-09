@@ -1,0 +1,14 @@
+{
+    "include": [
+      "$(MODDABLE)/examples/manifest_base.json",
+      "$(MODDABLE)/examples/manifest_net.json"
+    ],
+    "preload": [
+		  "hassio-api-mod"
+	  ],
+    "modules": {
+      "*": [
+        "./*"
+      ]
+    }
+  }
